@@ -1,0 +1,129 @@
+.pagina{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+}
+.topo{
+    height: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1123px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+
+.topo-left{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.topo-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+.conteudo{
+    background-color: aqua;
+    /*height: 1123px;  PROVISORIO */
+    display: flex;
+    justify-content: center;
+    width: 1123px;
+}
+
+.central{
+    background-color: brown;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-stories{
+    background-color:#FFFFFF;
+    height: 118px;
+    width: 614px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    padding-left: 18px;
+    margin-bottom: 24px;
+}
+
+.stories-back{
+    height: 66px;
+    width: 66px;
+    background: url("/images/stories_background.jpg");
+    background-size: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seta{
+    position: absolute;
+}
+.posts {
+    background-color: blueviolet;
+    height: 749px;
+    width: 614px;
+}
+
+.top-post{
+    display: flex;
+    align-items: center;
+}
+
+.icones{
+    display: flex;
+}
+
+.icones-posts{
+    width: 584px;
+}
+.curtidas{
+    display: flex;
+    align-items: center;
+}
+.menu-lateral{
+    background-color: black;
+    height: 250px;
+    width: 293px;
+}
+
+.borda-vertical{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+
+.barra-pesquisa{
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+    color: #979797;
+    font-family: "Roboto",  sans-serif;
+}
